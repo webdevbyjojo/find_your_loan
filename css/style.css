@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+li {
+    list-style: none;
+}
+
+.logo {
+    display: block;
+    width: 208px;
+}
+
+h1,
+.heading-1 {
+    font-size: 100px !important;
+    font-weight: 400 !important;
+    line-height: 1.2;
+    color: #001F51;
+    margin: 0 0 35px 0 !important;
+    text-transform: capitalize;
+}
+
+h2,
+.heading-2 {
+    font-size: 50px !important;
+    font-weight: 400 !important;
+    line-height: 1.2;
+    color: #001F51;
+    margin: 0 0 37px 0 !important;
+    text-transform: capitalize;
+}
+
+h3 {
+    font-size: 24px !important;
+    font-weight: 400 !important;
+    line-height: 1.2;
+    color: #001F51;
+    margin: 0 0 47px 0 !important;
+    text-transform: capitalize;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #001F51;
+    margin: 0 0 35px 0;
+}
+
+span {
+
+    font-weight: 600;
+    line-height: 1.2;
+    color: #D00000;
+    font-style: italic;
+}
+
+.btn-custom {
+    background-color: #052c65 !important;
+    /* Bootstrap $blue-800 */
+    color: #ffffff !important;
+    /* White text */
+    border: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #084298;
+    /* Bootstrap $blue-700 */
+    color: #ffffff;
+}
+
+/* banner  */
+.banner {
+    background: url(../images/banner.png) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-size: 100% 100%;
+    min-height: 100vh;
+}
+
+form {
+    background-color: white;
+    border-radius: 12px;
+    padding: 34px 39px 40px 19px;
+}
+
+.inner-text h1,
+p {
+    width: 90%;
+}
+
+/* banner  */
+/* about  */
+.about {
+    padding: 100px 0;
+}
+
+/* .about-left-image{
+    max-width: 568px;
+} */
+/* .inner-text-about{
+    max-width: 539px;
+} */
+.inner-text-about p {
+    color: #000000;
+    margin: 0 0 37px 0;
+}
+
+/* about  */
+/* card  */
+.card-section {
+    background: #F3F3F3;
+    padding: 100px 0;
+}
+
+.card {
+    border-radius: 20px !important;
+}
+
+.upper-text-card p {
+    max-width: 777px;
+    color: #000000;
+    margin: 0 auto 40px auto;
+}
+
+/* card  */
+
+/* footer  */
+.footer {
+    background: linear-gradient(to right, rgba(0, 31, 81, 0.955)), url(../images/footer-bac.png) no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    padding: 55px 0 51px 0;
+}
+
+.footer-logo {
+    display: block;
+    width: 312.84px;
+    margin: auto;
+}
+
+.copy-right p {
+    color: #FFFFFF !important;
+}
+
+.copy-right p a {
+    color: #FFFFFF !important;
+}
+
+.copy-right {
+    margin: 60px 0 0 0;
+}
+
+/* footer  */
+
+
+/* meadia query  */
+/* meadia query  */
+
+
+@media (min-width: 320px) and (max-width: 576.98px) {
+     h1,
+    .heading-1 {
+        font-size: 48px !important;
+        font-weight: 400 !important;
+        line-height: 1.1 !important;
+        margin: 0 0 10px 0 !important;
+    }
+    h3,.heading-1 {
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    line-height: 1.1 !important;
+    margin: 0 0 15px 0 !important;
+} 
+h2, .heading-2 {
+    font-size: 27px !important;
+    font-weight: 400 !important;
+    line-height: 1.1 !important;
+    margin: 0 0 15px 0 !important;
+}
+form {
+    
+    padding: 24px 29px 20px 19px;
+}
+
+    p {
+        font-size: 13px;
+        font-weight: 400;
+        margin: 0 0 25px 0;
+    }
+    /* about  */
+    .about {
+    padding: 40px 0;
+}
+    .inner-text-about p {
+    margin: 0 0 24px 0;
+}
+    /* about  */
+    /* card  */
+    .card-section {
+    padding: 40px 0;
+}
+    /* card  */
+    /* footer  */
+    .footer-logo {
+    width: 272.84px;
+}
+    /* footer  */
+}
+
+@media (min-width: 577px) and (max-width: 767.98px) {
+
+    h1,
+    .heading-1 {
+        font-size: 70px !important;
+        font-weight: 400 !important;
+        margin: 0 0 20px 0 !important;
+    }
+    h3,.heading-1 {
+    font-size: 19px !important;
+    font-weight: 400 !important;
+    margin: 0 0 15px 0 !important;
+} 
+h2, .heading-2 {
+    font-size: 35px !important;
+    font-weight: 400 !important;
+    margin: 0 0 15px 0 !important;
+}
+form {
+    
+    padding: 24px 29px 20px 19px;
+}
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        margin: 0 0 25px 0;
+    }
+    /* about  */
+    .about {
+    padding: 40px 0;
+}
+    .inner-text-about p {
+    margin: 0 0 24px 0;
+}
+    /* about  */
+    /* card  */
+    .card-section {
+    padding: 40px 0;
+}
+    /* card  */
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
